@@ -1,0 +1,122 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-navbar {
+    background-color: rgb(21, 163, 240);
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.li-navbar:hover{
+    background-color: rgb(32, 135, 231);
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.a-content {
+   background-color: rgb(10, 190, 245);
+   /* max-width: 1200px; */
+   /* width: 90%; */
+   padding-bottom: 15px;
+}
+
+.container-content-1 {
+    display: grid;
+    justify-content:stretch;
+    align-items: center;
+    text-align:center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* image style */
+.img-content-0 {
+   width: 200px !important;
+   height: 350px !important;
+}
+
+.img-content-1 {
+   width: 200px !important;
+   height: 350px !important;
+   background-color: rgb(10, 190, 245);	
+}
+
+.img-content-2 {
+   width: 200px !important;
+   height: 350px !important;
+   background-color: rgb(10, 190, 245);	
+}
+
+.container-content-2 {
+    text-align: center;
+    background-color: rgb(10, 190, 245);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.container-content-3 {
+   display: grid;
+   justify-content:stretch;
+   align-items: center;
+   text-align:center;
+   background-color: rgb(10, 190, 245);
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1px;  
+}
+
+.img-content-3 {
+   width: 200px !important;
+   height: 350px !important;	
+}
+
+.img-content-4 {
+    width: 200px !important;
+    height: 350px !important;	
+}
+
+.img-content-5 {
+    width: 200px !important;
+    height: 350px !important;	
+}
+
+ /* footer */
+.container-footer {
+    height: 7.2vh;
+    background-color: rgb(21, 163, 240);
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    
+
+.h1-footer {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+
